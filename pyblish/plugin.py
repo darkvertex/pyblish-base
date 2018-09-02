@@ -240,6 +240,8 @@ class Plugin():
     targets = ["default"]
     label = None
     active = True
+    multithread = False
+    multiprocess = False
     version = (0, 0, 0)
     order = -1
     optional = False
